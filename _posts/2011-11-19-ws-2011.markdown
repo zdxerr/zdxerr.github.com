@@ -1,6 +1,7 @@
 ---
 layout: default
-title: Links from WS2011
+title: WS2011
+categories: [links, university, lecture]
 ---
 
 - [Peer-to-Peer Networks and Applications](http://www.cs.uni-paderborn.de/fachgebiete/fg-ti/lehre0/ws1112/p2p-networks.html)
