@@ -1,0 +1,10 @@
+---
+layout: post
+title: CrossFit
+categories: [links, sport]
+---
+
+- [CrossFit](http://www.crossfit.com/)
+- [CrossFit Discussion Board](http://www.board.crossfit.com/)
+- [CrossFit Endurance](http://www.crossfitendurance.com/)
+- [CrossFit Football](http://www.crossfitfootball.com/)
