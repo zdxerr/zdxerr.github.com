@@ -1,0 +1,8 @@
+---
+layout: post
+title: Misc
+categories: [links, other]
+---
+
+- [FFFFOUND!](http://ffffound.com/)
+- []()

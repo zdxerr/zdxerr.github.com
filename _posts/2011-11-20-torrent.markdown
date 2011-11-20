@@ -1,0 +1,8 @@
+---
+layout: post
+title: Torrent
+categories: [links, download]
+---
+
+- [The Pirate Bay](http://thepiratebay.org)
+- [Torrentzap.com](http://www.torrentzap.com/)
