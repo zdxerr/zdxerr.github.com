@@ -14,3 +14,4 @@ categories: [links, fitness, blogs]
 - [Forging Elite Sarcasm](http://www.forgingelitesarcasm.com/)
 - [T NATION](http://www.t-nation.com/)
 - [TEAM GORILLA](http://wildgorillaman.blogspot.com/)
+- [fitness-experts.de](http://fitness-experts.de/)

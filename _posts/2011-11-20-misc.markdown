@@ -5,4 +5,4 @@ categories: [links, other]
 ---
 
 - [FFFFOUND!](http://ffffound.com/)
-- []()
+- [Study Hacks](http://calnewport.com/blog/)
