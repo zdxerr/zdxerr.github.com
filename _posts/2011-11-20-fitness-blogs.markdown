@@ -5,7 +5,7 @@ categories: [links, fitness, blogs]
 ---
 
 - [Lift Big Eat Big](http://www.liftbigeatbig.com/)
-- [Lyle McDonald - Bodyrecompositio](http://www.bodyrecomposition.com/)
+- [Lyle McDonald - Bodyrecomposition](http://www.bodyrecomposition.com/)
 - [Robertson Training Systems](http://robertsontrainingsystems.com/)
 - [MUNCHIES, MUSCLES, AND MISCHIEF](http://fortheloveofcookies.wordpress.com/)
 - [beastmodal domains](http://beastmodaldomains.com/)
