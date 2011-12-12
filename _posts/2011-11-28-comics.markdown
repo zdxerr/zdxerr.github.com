@@ -9,4 +9,5 @@ categories: [links, commics, fun]
 - [Three Panel Soul](http://threepanelsoul.com/)
 - [Eat That Toast!](http://eatthattoast.com/)
 - [Dick Figures](http://www.youtube.com/show/dickfigures)
+- [Dilbert](http://dilbert.com/)
 
