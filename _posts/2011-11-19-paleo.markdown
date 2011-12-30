@@ -13,4 +13,5 @@ categories: [links, nutrition]
 - [Free The Animal](http://freetheanimal.com/)
 - [Paleo Diet Hacks](http://paleohacks.com/)
 - [chowstalker](http://www.chowstalker.com/)
+- [Health-Bent](http://www.health-bent.com/)
  
