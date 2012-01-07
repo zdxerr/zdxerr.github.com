@@ -16,3 +16,4 @@ categories: [links, fitness, blogs]
 - [TEAM GORILLA](http://wildgorillaman.blogspot.com/)
 - [fitness-experts.de](http://fitness-experts.de/)
 - [LEANGAINS](http://www.leangains.com/)
+- [Der Wille zur Kraft](http://www.derwillezurkraft.de/)
