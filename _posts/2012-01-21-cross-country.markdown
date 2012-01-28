@@ -7,6 +7,9 @@ categories: [cross-country, running, sport]
 Hier mal eine Auflistung von Geländeläufen:
 
 - [Braveheart Battle](http://www.braveheartbattle.de/)
+  *Wann:* __10.03.2012__
+  *Wo:* __Münnerstadt, Unterfranken__
+  *Preis:* __59 Euro__
 - [Lake Run](http://www.lake-run.de/)
 Wann: 02.09.2012 
 Wo: BOS-Trainingszentrum, Auf der Alm 1, D-59519 Möhnesee

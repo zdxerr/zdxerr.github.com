@@ -1,0 +1,8 @@
+---
+layout: post
+title: Cooking
+categories: [links, cooking]
+---
+
+- [Stella Culinary](http://www.stellaculinary.com/)
+- [Michael Ruhlman](http://ruhlman.com/)
