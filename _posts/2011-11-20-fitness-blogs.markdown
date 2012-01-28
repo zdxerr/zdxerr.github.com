@@ -17,3 +17,6 @@ categories: [links, fitness, blogs]
 - [fitness-experts.de](http://fitness-experts.de/)
 - [LEANGAINS](http://www.leangains.com/)
 - [Der Wille zur Kraft](http://www.derwillezurkraft.de/)
+- [Max Condition](http://www.maxcondition.com/)
+- [Myosynthesis](http://www.myosynthesis.com/)
+- [elitefts](http://articles.elitefts.net/)
