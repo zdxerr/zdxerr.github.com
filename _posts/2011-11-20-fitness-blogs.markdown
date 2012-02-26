@@ -20,3 +20,5 @@ categories: [links, fitness, blogs]
 - [Max Condition](http://www.maxcondition.com/)
 - [Myosynthesis](http://www.myosynthesis.com/)
 - [elitefts](http://articles.elitefts.net/)
+- [LIFT-RUN-BANG](http://www.lift-run-bang.com/)
+- [ZombieFit](http://zombiefit.org/)
