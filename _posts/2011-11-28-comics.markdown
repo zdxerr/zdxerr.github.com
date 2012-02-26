@@ -4,7 +4,7 @@ title: Comics
 categories: [links, commics, fun]
 ---
 
-- [The Oatmeal]{http://theoatmeal.com/}
+- [The Oatmeal](http://theoatmeal.com/)
 - [xkcd](http://xkcd.com/)
 - [Cyanide & Happiness](http://www.explosm.net/comics/)
 - [Three Panel Soul](http://threepanelsoul.com/)
