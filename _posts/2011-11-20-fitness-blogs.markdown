@@ -22,3 +22,4 @@ categories: [links, fitness, blogs]
 - [elitefts](http://articles.elitefts.net/)
 - [LIFT-RUN-BANG](http://www.lift-run-bang.com/)
 - [ZombieFit](http://zombiefit.org/)
+- [Weightology](http://weightology.net/weightologyweekly/)
