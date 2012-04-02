@@ -4,7 +4,7 @@ title: Paleo
 categories: [links, nutrition]
 ---
 
-- [Robb Wolf](http://robbwolf.com/)
+- [Robb Wolf](http://robbwolf.com/blog/)
 - [Drs. Eades](http://www.proteinpower.com/)
 - [Archevore](http://www.archevore.com/)
 - [Whole9](http://whole9life.com/)
