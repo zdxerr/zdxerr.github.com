@@ -1,0 +1,7 @@
+---
+layout: post
+title: SS2012
+categories: [links, university, lecture]
+---
+
+- [Smarter Phones](https://fg-cn-pgsp1.cs.upb.de/)
