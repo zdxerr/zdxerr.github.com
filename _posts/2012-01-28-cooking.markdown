@@ -4,5 +4,6 @@ title: Cooking
 categories: [links, cooking]
 ---
 
+- [foodgawker](http://foodgawker.com/)
 - [Stella Culinary](http://www.stellaculinary.com/)
-- [Michael Ruhlman](http://ruhlman.com/)
+- [chowstalker](http://www.chowstalker.com/)
