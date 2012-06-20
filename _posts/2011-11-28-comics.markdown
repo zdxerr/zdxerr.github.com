@@ -12,4 +12,5 @@ categories: [links, commics, fun]
 - [Dick Figures](http://www.youtube.com/show/dickfigures)
 - [Dilbert](http://dilbert.com/)
 - [Querulous](http://diglett.blogspot.com/)
+- [BearFood](http://bearfood.com/)
 
