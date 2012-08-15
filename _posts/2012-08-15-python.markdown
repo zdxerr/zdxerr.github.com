@@ -1,0 +1,37 @@
+---
+layout: post
+title: Python Programming
+categories: [programming, python]
+---
+
+This is a collection of useful tutorials, texts, notes, packages and tools for the _Python Programming Language_.
+
+- [Learn Python The Hard Way](http://learnpythonthehardway.org/book/)
+- [The Hitchhiker’s Guide to Python!](http://docs.python-guide.org/en/latest/index.html)
+- [A Guide to Python's Magic Methods](http://www.rafekettler.com/magicmethods.html)
+- [Understanding Python decorators](http://stackoverflow.com/questions/739654/understanding-python-decorators)
+- [Improving your code with modern idioms](http://python3porting.com/improving.html)
+- [A few things to remember while coding in Python](http://satyajit.ranjeev.in/2012/05/17/python-a-few-things-to-remember.html)
+- [Line-by-Line memory usage of a Python program](http://fseoane.net/blog/2012/line-by-line-report-of-memory-usage/)
+- [A collection of design patterns implemented in Python](https://github.com/faif/python-patterns)
+
+- _[pip](http://pypi.python.org/pypi/pip/)_ is a tool for installing and managing Python packages.
+    `easy_install pip`
+
+- _[virtualenv](http://pypi.python.org/pypi/virtualenv)_ is a tool to create isolated Python environments.
+    `pip install virtualenv`
+
+- _[virtualenvwrapper](http://www.doughellmann.com/projects/virtualenvwrapper/)_  is a set of bash functions to keep
+    virtual environments manageable
+    `pip install virtualenvwrapper`
+
+- _[Requests](http://docs.python-requests.org/)_: HTTP for Humans
+    `pip install requests`
+
+- _[Envoy](https://github.com/kennethreitz/envoy/)_: Python Subprocesses for Humans
+    `pip install envoy`
+
+- _[Twisted](http://twistedmatrix.com/)_ is an event-driven networking engine.
+
+
+
