@@ -19,19 +19,25 @@ This is a collection of useful tutorials, texts, notes, packages and tools for t
     `easy_install pip`
 
 - _[virtualenv](http://pypi.python.org/pypi/virtualenv)_ is a tool to create isolated Python environments.
+
     `pip install virtualenv`
 
 - _[virtualenvwrapper](http://www.doughellmann.com/projects/virtualenvwrapper/)_  is a set of bash functions to keep
-    virtual environments manageable
+    virtual environments manageable.
+
     `pip install virtualenvwrapper`
 
 - _[Requests](http://docs.python-requests.org/)_: HTTP for Humans
+
     `pip install requests`
 
 - _[Envoy](https://github.com/kennethreitz/envoy/)_: Python Subprocesses for Humans
+
     `pip install envoy`
 
 - _[Twisted](http://twistedmatrix.com/)_ is an event-driven networking engine.
+
+    `pip install twisted`
 
 
 
