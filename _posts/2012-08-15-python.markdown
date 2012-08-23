@@ -16,6 +16,7 @@ This is a collection of useful tutorials, texts, notes, packages and tools for t
 - [A collection of design patterns implemented in Python](https://github.com/faif/python-patterns)
 
 - _[pip](http://pypi.python.org/pypi/pip/)_ is a tool for installing and managing Python packages.
+
     `easy_install pip`
 
 - _[virtualenv](http://pypi.python.org/pypi/virtualenv)_ is a tool to create isolated Python environments.

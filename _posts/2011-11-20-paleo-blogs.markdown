@@ -5,5 +5,3 @@ categories: [links, nutrition, paleo, blogs]
 ---
 
 - [Nom Nom Paleo](http://nomnompaleo.com/)
-
-

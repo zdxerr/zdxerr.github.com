@@ -7,4 +7,4 @@ categories: [links, cooking]
 - [foodgawker](http://foodgawker.com/)
 - [chowstalker](http://www.chowstalker.com/)
 - [Stella Culinary](http://www.stellaculinary.com/)
-
+- [Jan's Sushi Bar](http://www.janssushibar.com/)
