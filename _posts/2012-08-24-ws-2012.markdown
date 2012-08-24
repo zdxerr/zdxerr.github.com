@@ -6,9 +6,8 @@ categories: [links, university, lecture]
 
 - __Konstruktive Methoden des Software Engineering__:
 
-    - [Objektorientierte Programmierung](http://ag-kastens.uni-paderborn.de/lehre/material/oop/) bei _[Prof. Dr. Uwe Kastens](http://www.cs.uni-paderborn.de/fachgebiete/ag-kastens/wir/uwe.html)_
-
-    - [Parallel Programming (in English)](http://ag-kastens.uni-paderborn.de/lehre/material/ppje/) bei _[Prof. Dr. Uwe Kastens](http://www.cs.uni-paderborn.de/fachgebiete/ag-kastens/wir/uwe.html)_
+    * [Objektorientierte Programmierung](http://ag-kastens.uni-paderborn.de/lehre/material/oop/) bei _[Prof. Dr. Uwe Kastens](http://www.cs.uni-paderborn.de/fachgebiete/ag-kastens/wir/uwe.html)_
+    * [Parallel Programming (in English)](http://ag-kastens.uni-paderborn.de/lehre/material/ppje/) bei _[Prof. Dr. Uwe Kastens](http://www.cs.uni-paderborn.de/fachgebiete/ag-kastens/wir/uwe.html)_
 
 - __Rechnernetze__:
 
