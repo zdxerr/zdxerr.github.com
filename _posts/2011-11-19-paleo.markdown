@@ -9,4 +9,4 @@ categories: [links, nutrition]
 - [Chris Kresser](http://chriskresser.com/)
 - [Mark's Daily Apple](http://www.marksdailyapple.com/)
 - [Paleo Diet Hacks](http://paleohacks.com/)
- 
+- [Health Correlator](http://healthcorrelator.blogspot.de/)

@@ -12,3 +12,5 @@ categories: [links, fitness, blogs]
 - [LEANGAINS](http://www.leangains.com/)
 - [Der Wille zur Kraft](http://www.derwillezurkraft.de/)
 - [Myosynthesis](http://www.myosynthesis.com/)
+- [Poliquin](http://www.charlespoliquin.com/)
+- [Zen to Fitnes](http://zentofitness.com/)
