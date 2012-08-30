@@ -1,0 +1,8 @@
+---
+layout: post
+title: Design
+categories: [links, design, inspiration]
+---
+
+- [Principles of User Interface Design](http://bokardo.com/principles-of-user-interface-design/)
+- [147colors](http://www.147colors.com/)

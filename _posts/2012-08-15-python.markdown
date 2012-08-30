@@ -40,5 +40,7 @@ This is a collection of useful tutorials, texts, notes, packages and tools for t
 
     `pip install twisted`
 
+- _Profiling_: _[Memory Profiler](https://github.com/fabianp/memory_profiler)_, _[Line Profiler](http://packages.python.org/line_profiler/)_
+
 
 
