@@ -28,6 +28,10 @@ This is a collection of useful tutorials, texts, notes, packages and tools for t
 
     `pip install virtualenvwrapper`
 
+- _[Pylint](http://www.logilab.org/857)_ is a python tool that checks if a module satisfies a coding standard.
+
+	`pip install pylint`
+
 - _[Requests](http://docs.python-requests.org/)_: HTTP for Humans
 
     `pip install requests`
@@ -39,6 +43,12 @@ This is a collection of useful tutorials, texts, notes, packages and tools for t
 - _[Twisted](http://twistedmatrix.com/)_ is an event-driven networking engine.
 
     `pip install twisted`
+
+- _[Flask](http://flask.pocoo.org/)_ and _[Bottle](http://bottlepy.org/)_ are easy to use web framework.
+
+	`pip install flask`
+
+	`pip install bottle`
 
 - _Profiling_: _[Memory Profiler](https://github.com/fabianp/memory_profiler)_, _[Line Profiler](http://packages.python.org/line_profiler/)_
 
