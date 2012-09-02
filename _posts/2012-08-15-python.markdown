@@ -28,6 +28,8 @@ This is a collection of useful tutorials, texts, notes, packages and tools for t
 
     `pip install virtualenvwrapper`
 
+- _[SymPy](http://sympy.org/en/index.html)_ is a Python library for symbolic mathematics. 
+
 - _[Pylint](http://www.logilab.org/857)_ is a python tool that checks if a module satisfies a coding standard.
 
 	`pip install pylint`
