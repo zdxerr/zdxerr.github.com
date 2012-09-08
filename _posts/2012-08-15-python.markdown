@@ -53,6 +53,8 @@ This is a collection of useful tutorials, texts, notes, packages and tools for t
 
 	`pip install bottle`
 
+- _[autopep8](https://github.com/hhatto/autopep8)_ automatically formats Python code to conform to the [PEP 8](http://www.python.org/dev/peps/pep-0008) style guide.
+
 - _Profiling_: _[Memory Profiler](https://github.com/fabianp/memory_profiler)_, _[Line Profiler](http://packages.python.org/line_profiler/)_
 
 
