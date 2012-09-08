@@ -28,6 +28,15 @@ Create user:
 Add user to certain groups:
 `sudo usermod -aG dialout,cdrom,floppy,audio,video,plugdev,fuse,lpadmin <username>`
 
+Updating/Upgrading
+==================
+
+`sudo aptitude update`
+
+`sudo aptitude safe-upgrade`
+
+`sudo aptitude full-upgrade`
+
 Windows Network
 ===============
 
