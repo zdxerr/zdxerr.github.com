@@ -14,6 +14,7 @@ This is a collection of useful tutorials, texts, notes, packages and tools for t
 - [A few things to remember while coding in Python](http://satyajit.ranjeev.in/2012/05/17/python-a-few-things-to-remember.html)
 - [Line-by-Line memory usage of a Python program](http://fseoane.net/blog/2012/line-by-line-report-of-memory-usage/)
 - [A collection of design patterns implemented in Python](https://github.com/faif/python-patterns)
+- [Python Cheat Sheet](https://docs.google.com/file/d/0B9VT_L2CDnKvODYyNTc5NjktYmMyOC00NDFkLTliNTctMzQzMTAzYjUyYmYy/edit)
 
 - _[pip](http://pypi.python.org/pypi/pip/)_ is a tool for installing and managing Python packages.
 
