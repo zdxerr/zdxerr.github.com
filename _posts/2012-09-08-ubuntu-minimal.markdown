@@ -60,24 +60,24 @@ Install [texlive](http://www.tug.org/texlive/) from the website because the dist
 4. Create a shortcut for the terminal `sudo ln -s /usr/lib/Sublime\ Text\ 2/sublime_text /usr/bin/sublime`.
 5. Create a desktop file in `/usr/share/applications` using `sudo sublime /usr/share/applications/sublime.desktop` containing:
 
-    [Desktop Entry]
-    Version=1.0
-    Name=Sublime Text 2
-    # Only KDE 4 seems to use GenericName, so we reuse the KDE strings.
-    # From Ubuntu's language-pack-kde-XX-base packages, version 9.04-20090413.
-    GenericName=Text Editor
+        [Desktop Entry]
+        Version=1.0
+        Name=Sublime Text 2
+        # Only KDE 4 seems to use GenericName, so we reuse the KDE strings.
+        # From Ubuntu's language-pack-kde-XX-base packages, version 9.04-20090413.
+        GenericName=Text Editor
 
-    Exec=sublime
-    Terminal=false
-    Icon=/usr/lib/Sublime Text 2/Icon/48x48/sublime_text.png
-    Type=Application
-    Categories=TextEditor;IDE;Development
-    X-Ayatana-Desktop-Shortcuts=NewWindow
+        Exec=sublime
+        Terminal=false
+        Icon=/usr/lib/Sublime Text 2/Icon/48x48/sublime_text.png
+        Type=Application
+        Categories=TextEditor;IDE;Development
+        X-Ayatana-Desktop-Shortcuts=NewWindow
 
-    [NewWindow Shortcut Group]
-    Name=New Window
-    Exec=sublime -n
-    TargetEnvironment=Unity
+        [NewWindow Shortcut Group]
+        Name=New Window
+        Exec=sublime -n
+        TargetEnvironment=Unity
 
 6. Associate _Sublime Text_ with all file formats you want in the `defaults.list` using `sudo sublime /usr/share/applications/defaults.list`.
 
