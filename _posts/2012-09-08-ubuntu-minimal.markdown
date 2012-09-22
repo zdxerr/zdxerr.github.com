@@ -12,15 +12,13 @@ First install X.org, Xfce to get a graphical interface, the GNOME Display Manger
 
 Then type `startx` to run the graphical environment.
 
-System Tools
-============
+## System Tools
 
 [PCManFM](http://pcmanfm.sourceforge.net/) as a FileManager, [conky](http://conky.sourceforge.net/) for system monitoring and [HardInfo](http://hardinfo.berlios.de/) for hardware informations.
 
 `sudo aptitude install pcmanfm conky hardinfo`
 
-Users
-=====
+## Users
 
 Create user:
 `sudo adduser <username>`
@@ -28,8 +26,7 @@ Create user:
 Add user to certain groups:
 `sudo usermod -aG dialout,cdrom,floppy,audio,video,plugdev,fuse,lpadmin <username>`
 
-Updating/Upgrading
-==================
+## Updating/Upgrading
 
 `sudo aptitude update`
 
@@ -37,15 +34,13 @@ Updating/Upgrading
 
 `sudo aptitude full-upgrade`
 
-Windows Network
-===============
+## Windows Network
 
 To browser and create windows network share you need samba (pyNeighborhood is a SMB/CIFS browsing utility):
 
 `sudo aptitude install smbfs pyneighborhood`
 
-Media Handling
-==============
+## Media Handling
 
 VLC for Video Playback, Exaile for Music, Chrome for web-browsing and Flash/Java plugins.
 
@@ -57,7 +52,13 @@ VLC for Video Playback, Exaile for Music, Chrome for web-browsing and Flash/Java
 
 Install [texlive](http://www.tug.org/texlive/) from the website because the distribution contained in Ubuntu is old.
 
-Download [Sublime Text 2](http://www.sublimetext.com/2), untar the archive `tar xf Sublime\ Text\ 2\ Build\ 2181\ x64.tar.bz2`, move the extracted folder to `/usr/lib` with `sudo mv Sublime\ Text\ 2 /usr/lib/`, create a shortcut for the terminal `sudo ln -s /usr/lib/Sublime\ Text\ 2/sublime_text /usr/bin/sublime`, create a desktop  file in `/usr/share/applications` using `sudo sublime /usr/share/applications/sublime.desktop` containing:
+### Sublime Text 2
+
+1. Download [Sublime Text 2](http://www.sublimetext.com/2).
+2. Untar the archive `tar xf Sublime\ Text\ 2\ Build\ 2181\ x64.tar.bz2`.
+3. Move the extracted folder to `/usr/lib` with `sudo mv Sublime\ Text\ 2 /usr/lib/`.
+4. Create a shortcut for the terminal `sudo ln -s /usr/lib/Sublime\ Text\ 2/sublime_text /usr/bin/sublime`.
+5. Create a desktop file in `/usr/share/applications` using `sudo sublime /usr/share/applications/sublime.desktop` containing:
 
     [Desktop Entry]
     Version=1.0
@@ -78,5 +79,5 @@ Download [Sublime Text 2](http://www.sublimetext.com/2), untar the archive `tar 
     Exec=sublime -n
     TargetEnvironment=Unity
 
-And associate Sublime Text with all file formats you want in the `defaults.list` using `sudo sublime /usr/share/applications/defaults.list`.
+6. Associate _Sublime Text_ with all file formats you want in the `defaults.list` using `sudo sublime /usr/share/applications/defaults.list`.
 
