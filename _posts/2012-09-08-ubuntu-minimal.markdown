@@ -50,3 +50,33 @@ Media Handling
 VLC for Video Playback, Exaile for Music, Chrome for web-browsing and Flash/Java plugins.
 
 `sudo aptitude install vlc exaile google-chrome-stable flashplugin-nonfree sun-java5-plugin`
+
+## Tools
+
+### Latex
+
+Install [texlive](http://www.tug.org/texlive/) from the website because the distribution contained in Ubuntu is old.
+
+Download [Sublime Text 2](http://www.sublimetext.com/2), untar the archive `tar xf Sublime\ Text\ 2\ Build\ 2181\ x64.tar.bz2`, move the extracted folder to `/usr/lib` with `sudo mv Sublime\ Text\ 2 /usr/lib/`, create a shortcut for the terminal `sudo ln -s /usr/lib/Sublime\ Text\ 2/sublime_text /usr/bin/sublime`, create a desktop  file in `/usr/share/applications` using `sudo sublime /usr/share/applications/sublime.desktop` containing:
+
+    [Desktop Entry]
+    Version=1.0
+    Name=Sublime Text 2
+    # Only KDE 4 seems to use GenericName, so we reuse the KDE strings.
+    # From Ubuntu's language-pack-kde-XX-base packages, version 9.04-20090413.
+    GenericName=Text Editor
+
+    Exec=sublime
+    Terminal=false
+    Icon=/usr/lib/Sublime Text 2/Icon/48x48/sublime_text.png
+    Type=Application
+    Categories=TextEditor;IDE;Development
+    X-Ayatana-Desktop-Shortcuts=NewWindow
+
+    [NewWindow Shortcut Group]
+    Name=New Window
+    Exec=sublime -n
+    TargetEnvironment=Unity
+
+And associate Sublime Text with all file formats you want in the `defaults.list` using `sudo sublime /usr/share/applications/defaults.list`.
+
