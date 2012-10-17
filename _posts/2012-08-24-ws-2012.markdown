@@ -1,7 +1,7 @@
 ---
 layout: post
 title: WS2012
-categories: [links, university, lecture]
+categories: [links, university, lecture, ws2012]
 ---
 
 __Konstruktive Methoden des Software Engineering__:
