@@ -6,17 +6,17 @@ categories: [Linux, Ubuntu, installation]
 
 This is a description of how to setup a basic working system, after installing [Ubuntu Minimal](https://help.ubuntu.com/community/Installation/MinimalCD).
 
-First install X.org, Xfce to get a graphical interface, the GNOME Display Manger (GDM) for a graphical login and _network-manager_ to manage network connections:
+First install X.org, Xfce to get a graphical interface and _wicd_ to manage your network connections:
 
-`sudo aptitude install xorg xfce4 gdm network-manager`
+`sudo aptitude install xorg xfce4 wicd`
 
-Then type `startx` to run the graphical environment.
+Then type `startx` to run the graphical environment (if this does not work, add `exec startxfce4` to your `.xinitrc` in your home directory).
 
 ## System Tools
 
-[PCManFM](http://pcmanfm.sourceforge.net/) as a FileManager, [conky](http://conky.sourceforge.net/) for system monitoring and [HardInfo](http://hardinfo.berlios.de/) for hardware informations.
+[conky](http://conky.sourceforge.net/) for system monitoring and [HardInfo](http://hardinfo.berlios.de/) for hardware informations.
 
-`sudo aptitude install pcmanfm conky hardinfo`
+`sudo aptitude install terminal conky hardinfo`
 
 ## Users
 
@@ -29,9 +29,7 @@ Add user to certain groups:
 ## Updating/Upgrading
 
 `sudo aptitude update`
-
 `sudo aptitude safe-upgrade`
-
 `sudo aptitude full-upgrade`
 
 ## Windows Network
@@ -42,9 +40,9 @@ To browser and create windows network share you need samba (pyNeighborhood is a 
 
 ## Media Handling
 
-VLC for Video Playback, Exaile for Music, Chrome for web-browsing and Flash/Java plugins.
+_Xarchiver_ for compressed files, _VLC_ for Video Playback, _Epdfview_ for PDFs, _Transmission_ for torrents, _Chrome_ for web-browsing and Flash/Java plugins.
 
-`sudo aptitude install vlc exaile google-chrome-stable flashplugin-nonfree sun-java5-plugin`
+`sudo aptitude install xarchiver vlc epdfview transmission google-chrome-stable flashplugin-nonfree sun-java5-plugin`
 
 ## Tools
 
