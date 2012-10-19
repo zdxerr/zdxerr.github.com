@@ -16,7 +16,7 @@ Then type `startx` to run the graphical environment (if this does not work, add 
 
 [conky](http://conky.sourceforge.net/) for system monitoring and [HardInfo](http://hardinfo.berlios.de/) for hardware informations.
 
-`sudo aptitude install terminal conky hardinfo`
+`sudo aptitude install xfce4-terminal conky hardinfo`
 
 ## Users
 
@@ -42,7 +42,7 @@ To browser and create windows network share you need samba (pyNeighborhood is a 
 
 _Xarchiver_ for compressed files, _VLC_ for Video Playback, _Epdfview_ for PDFs, _Transmission_ for torrents, _Chrome_ for web-browsing and Flash/Java plugins.
 
-`sudo aptitude install xarchiver vlc epdfview transmission google-chrome-stable flashplugin-nonfree sun-java5-plugin`
+`sudo aptitude install xarchiver vlc epdfview transmission chromium-browser flashplugin-nonfree flashplugin-installer chromium-codecs-ffmpeg chromium-codecs-ffmpeg-extra`
 
 ## Tools
 
