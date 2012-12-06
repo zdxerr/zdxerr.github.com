@@ -195,7 +195,7 @@ var box = svg.selectAll("g.box")
     .attr("height", y.rangeBand())
     .on("mouseover", function(d) { d3.selectAll(".box.n" + d.number).classed("highlight", true); })
     .on("mouseout", function(d) { d3.selectAll(".box.n" + d.number).classed("highlight", false); })
-    .on("click", function(d) { d3.text("log/t_" + zeroPad(d.number, 6) + ".log"); })
+    .on("click", function(d) { d3.text("log/t_" + zeroPad(d.number, 6) + ".log", log_loaded); })
     .append("svg:title")
     .text(function(d) { return "Testrun #" + d.number; });
 </script>
