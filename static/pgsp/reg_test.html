@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-<title>PGSP Regression Test Results</title>
+<title>PGSP Testbed Regression Test Results</title>
 <script src="http://d3js.org/d3.v2.js"></script>
 <style>
 body {
@@ -58,6 +58,7 @@ body {
 </style>
 </head>
 <body>
+<h1>PGSP Testbed Regression Test Results</h1>
 <script src="test_results.js"></script>
 <script>
 
@@ -181,9 +182,10 @@ function zeroPad(num, places) {
 }
 
 function log_loaded(txt) {
-    console.log(txt);
+    d3.select("#log").text(txt);
 }
 
+d3.select("#log").text("bla");
 var box = svg.selectAll("g.box")
     .data(data)
     .enter().append("rect")
@@ -199,3 +201,5 @@ var box = svg.selectAll("g.box")
     .append("svg:title")
     .text(function(d) { return "Testrun #" + d.number; });
 </script>
+
+<code id="log"></code>
