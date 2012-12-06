@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>PGSP Regression Test Results</title>
+<script src="http://d3js.org/d3.v2.js"></script>
+<style>
+body {
+  font: 10px sans-serif;
+}
+
+.axis path,
+.axis line {
+  fill: none;
+  stroke: #000;
+  shape-rendering: crispEdges;
+}
+
+.box {
+    fill: steelblue;
+}
+.bar text {
+    fill:white;
+}
+
+.box.passed {
+    fill: lightgreen;
+}
+
+.box.failed {
+    fill: red;
+}
+
+.box.passed.ap {
+    fill: LightBlue;
+}
+.box.failed.ap {
+    fill: SteelBlue;
+}
+
+.box.passed.highlight {
+    fill: Lime;
+}
+.box.failed.highlight {
+    fill: Crimson;
+}
+
+.box.passed.ap.highlight {
+    fill: #007FFF;
+}
+.box.failed.ap.highlight {
+    fill: DarkSlateBlue;
+}
+
+.x.axis path {
+  display: none;
+}
+
+</style>
+</head>
+<body>
+<script src="test_results.js"></script>
+<script>
+
+var margin = {top: 20, right: 20, bottom: 30, left: 120},
+    width = 1420 - margin.left - margin.right,
+    height = 400 - margin.top - margin.bottom;
+
+// Data processing
+var nest = d3.nest()
+    .key(function(d) { return d.name; })
+    .rollup(function(d) { return d3.sum(d, function(d){ return !d.result ? 1 : 0; }); })
+    .entries(data);
+
+nest.reverse()
+
+var x = d3.scale.linear()
+    .range([0, width])
+    .domain(d3.extent(nest, function(d) { return d.values; }));
+
+var xAxis = d3.svg.axis()
+    .scale(x);
+
+console.log(nest);
+
+var y = d3.scale.ordinal()
+    .rangeRoundBands([height, 0], .05)
+    .domain(nest.map(function(d) { return d.key; }));
+
+var yAxis = d3.svg.axis()
+    .scale(y)
+    .orient("left")
+    .tickSize(5);
+
+var color = d3.scale.category20()
+    .domain(nest.map(function(d) { return d.key; }));
+
+var svg = d3.select("body").append("svg")
+    .attr("width", width + margin.left + margin.right)
+    .attr("height", height + margin.top + margin.bottom)
+    .append("g")
+    .attr("transform", "translate(" + margin.left + "," + margin.top + ")");
+
+svg.append("g")
+    .attr("class", "x axis")
+    .call(xAxis)
+    .attr("transform", "translate(0," + height + ")")
+    .append("text")
+    .style("text-anchor", "end")
+    .text("#");
+
+svg.append("g")
+    .attr("class", "y axis")
+    .call(yAxis);
+
+var bar = svg.selectAll("g.bar")
+    .data(nest)
+    .enter().append("g")
+    .attr("class", "bar")
+    .attr("transform", function(d) { return "translate(0," + y(d.key) + ")"; })
+    .style("fill", function(d) { return color(d.key); });
+
+bar.append("rect")
+    .attr("width", function(d) { return x(d.values); })
+    .attr("height", y.rangeBand());
+
+bar.append("text")
+    .attr("class", "value")
+    .attr("x", function(d) { return x(d.values); })
+    .attr("y", y.rangeBand() / 2)
+    .attr("dx", -3)
+    .attr("dy", ".35em")
+    .attr("text-anchor", "end")
+    .text(function(d) { return d.values; });
+
+</script>
+
+<script>
+
+var nest = d3.nest()
+    .key(function(d) { return d.name; })
+    .map(data);
+// console.log(d3.keys(nest));
+
+var x = d3.scale.linear()
+    .range([0, width])
+    .domain(d3.extent(data, function(d) { return d.number; }));
+
+var xAxis = d3.svg.axis()
+    .scale(x);
+
+var y = d3.scale.ordinal()
+    .rangeRoundBands([height, 0], .05)
+    .domain(d3.keys(nest).reverse());
+
+var yAxis = d3.svg.axis()
+    .scale(y)
+    .orient("left")
+    .tickSize(5);
+
+var svg = d3.select("body").append("svg")
+    .attr("width", width + margin.left + margin.right)
+    .attr("height", height + margin.top + margin.bottom)
+    .append("g")
+    .attr("transform", "translate(" + margin.left + "," + margin.top + ")");
+
+svg.append("g")
+    .attr("class", "x axis")
+    .call(xAxis)
+    .attr("transform", "translate(0," + height + ")")
+    .append("text")
+    .style("text-anchor", "end")
+    .text("#");
+
+svg.append("g")
+    .attr("class", "y axis")
+    .call(yAxis);
+
+function zeroPad(num, places) {
+  var zero = places - num.toString().length + 1;
+  return Array(+(zero > 0 && zero)).join("0") + num;
+}
+
+function log_loaded(txt) {
+    console.log(txt);
+}
+
+var box = svg.selectAll("g.box")
+    .data(data)
+    .enter().append("rect")
+    .attr("class", function(d) { return "box n" + d.number + (d.result ? " passed" : " failed") +
+          (d.name.length == 3 ? " ap" : " test"); })
+    .attr("x", function(d) { return x(d.number); })
+    .attr("y", function(d) { return y(d.name); })
+    .attr("width", x(0.6))
+    .attr("height", y.rangeBand())
+    .on("mouseover", function(d) { d3.selectAll(".box.n" + d.number).classed("highlight", true); })
+    .on("mouseout", function(d) { d3.selectAll(".box.n" + d.number).classed("highlight", false); })
+    .on("click", function(d) { d3.text("log/t_" + zeroPad(d.number, 6) + ".log"); })
+    .append("svg:title")
+    .text(function(d) { return "Testrun #" + d.number; });
+</script>

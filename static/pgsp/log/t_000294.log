@@ -1,0 +1,66 @@
+bootstrap-scripts/rsync-pgsp-repo.sh: Success
+Testbed Location is: pb
+bootstrap-scripts/generate-dnsmasq.sh: Success
+bootstrap-scripts/generate-pxeboot.sh: Adding test-master-pb-vm as test-master
+bootstrap-scripts/generate-pxeboot.sh: Adding video-source-pb-vm as video-source
+bootstrap-scripts/generate-pxeboot.sh: No PXE entry for bootstrap-pb-vm
+bootstrap-scripts/generate-pxeboot.sh: No PXE entry for kvm-pb-SLFR79
+bootstrap-scripts/generate-pxeboot.sh: Adding ap1-pb-SLFR80 as aps
+bootstrap-scripts/generate-pxeboot.sh: Adding ap2-pb-SLFR81 as aps
+bootstrap-scripts/generate-pxeboot.sh: Adding ap3-pb-SLFR82 as aps
+bootstrap-scripts/generate-pxeboot.sh: Adding ap4-pb-SLFR83 as aps
+bootstrap-scripts/reboot-everything.sh: Success
+bootstrap-scripts/phone-provisioning.sh: Success
+test-master-pb-vm: Starting
+test-master-pb-vm: Done
+ap1-pb-SLFR80: Starting
+ap1-pb-SLFR80: Done
+ap2-pb-SLFR81: Starting
+ap2-pb-SLFR81: Done
+ap3-pb-SLFR82: Starting
+ap3-pb-SLFR82: Done
+ap4-pb-SLFR83: Starting
+ap4-pb-SLFR83: Done
+video-source-pb-vm: Starting
+video-source-pb-vm: Done
+Waiting for 30 seconds...
+Sandy-pb, ap1-pb-SLFR80: Connection preference: OK (AP 64:70:02:1a:cf:e4)
+Chantal-pb, ap2-pb-SLFR81: Connection preference: OK (AP 64:70:02:18:7c:60)
+Ronny-pb, ap4-pb-SLFR83: Connection preference: OK (AP 64:70:02:18:a0:ed)
+Kevin-pb, ap3-pb-SLFR82: Connection preference: OK (AP 64:70:02:0f:f4:a0)
+Sandy-pb, ap1-pb-SLFR80: Connected
+Chantal-pb, ap2-pb-SLFR81: Connected
+Ronny-pb, ap4-pb-SLFR83: Connected
+Kevin-pb, ap3-pb-SLFR82: Connected
+Starting testrun (Mon Dec  3 20:37:16 UTC 2012)...
+[1m
+Test 1_1   Network                                 running...[0m
+Test 1_1   Network                                 [0;32mPASSED[0m         0.18s
+[1m
+Test 1_2   WLAN                                    running...[0m
+Test 1_2   WLAN                                    [0;32mPASSED[0m         4.57s
+[1m
+Test 1_9   AP Visibility                           running...[0m
+Test 1_9   AP Visibility                           [0;32mPASSED[0m        22.09s
+[1m
+Test 1_8   WLAN (Phones)                           running...[0m
+Test 1_8   WLAN (Phones)                           [0;32mPASSED[0m         1.68s
+[1m
+Test 1_3   Handover                                running...[0m
+Test 1_3   Handover                                [0;32mPASSED[0m        26.05s
+[1m
+Test 1_6   Installed Programs                      running...[0m
+Test 1_6   Installed Programs                      [0;32mPASSED[0m         2.10s
+[1m
+Test 1_4   Uplink Limitation                       running...[0m
+Test 1_4   Uplink Limitation                       [0;32mPASSED[0m        19.12s
+[1m
+Test 1_5   Downlink Limitation                     running...[0m
+Test 1_5   Downlink Limitation                     [0;32mPASSED[0m        22.09s
+[1m
+Test 1_7   Streaming                               running...[0m
+Test 1_7   Streaming                               [0;32mPASSED[0m        20.50s
+[1m
+Test 2_1   Playlist Proxy                          running...[0m
+Test 2_1   Playlist Proxy                          [0;32mPASSED[0m         2.08s
+Testrun finished [121 seconds].
