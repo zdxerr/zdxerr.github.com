@@ -16,21 +16,23 @@ Then type `startx` to run the graphical environment (if this does not work, add 
 
 [conky](http://conky.sourceforge.net/) for system monitoring and [HardInfo](http://hardinfo.berlios.de/) for hardware informations.
 
-`sudo aptitude install xfce4-terminal conky hardinfo`
+    sudo aptitude install xfce4-terminal conky hardinfo
 
 ## Users
 
 Create user:
-`sudo adduser <username>`
+
+    sudo adduser <username>
 
 Add user to certain groups:
-`sudo usermod -aG dialout,cdrom,floppy,audio,video,plugdev,fuse,lpadmin <username>`
+
+    sudo usermod -aG dialout,cdrom,floppy,audio,video,plugdev,fuse,lpadmin <username>
 
 ## Updating/Upgrading
 
-`sudo aptitude update`
-`sudo aptitude safe-upgrade`
-`sudo aptitude full-upgrade`
+    sudo aptitude update
+    sudo aptitude safe-upgrade
+    sudo aptitude full-upgrade
 
 ## Windows Network
 
@@ -42,7 +44,19 @@ To browser and create windows network share you need samba (pyNeighborhood is a 
 
 _Xarchiver_ for compressed files, _VLC_ for Video Playback, _Epdfview_ for PDFs, _Transmission_ for torrents, _Chrome_ for web-browsing and Flash/Java plugins.
 
-`sudo aptitude install xarchiver vlc epdfview transmission chromium-browser flashplugin-nonfree flashplugin-installer chromium-codecs-ffmpeg chromium-codecs-ffmpeg-extra`
+    sudo aptitude install xarchiver vlc epdfview transmission chromium-browser flashplugin-nonfree flashplugin-installer chromium-codecs-ffmpeg chromium-codecs-ffmpeg-extra
+
+### Image Viewer
+
+To compile and install _[ViewNior](http://xsisqox.github.com/Viewnior/download.html)_:
+
+    sudo aptitude install build-essential intltool libgdk-pixbuf2.0-dev libgtk2.0-dev
+    tar zxvf viewnior-1.3.tar.gz
+    cd cd viewnior-1.3
+    ./configure
+    make
+    sudo make install
+
 
 ## Tools
 
@@ -79,3 +93,6 @@ Install [texlive](http://www.tug.org/texlive/) from the website because the dist
 
 6. Associate _Sublime Text_ with all file formats you want in the `defaults.list` using `sudo sublime /usr/share/applications/defaults.list`.
 
+### Development
+
+    sudo aptitude install haskell-platform
