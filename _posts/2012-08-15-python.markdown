@@ -29,7 +29,7 @@ This is a collection of useful tutorials, texts, notes, packages and tools for t
 
     `pip install virtualenvwrapper`
 
-- _[SymPy](http://sympy.org/en/index.html)_ is a Python library for symbolic mathematics. 
+- _[SymPy](http://sympy.org/en/index.html)_ is a Python library for symbolic mathematics.
 
 - _[Pylint](http://www.logilab.org/857)_ is a python tool that checks if a module satisfies a coding standard.
 
@@ -52,6 +52,8 @@ This is a collection of useful tutorials, texts, notes, packages and tools for t
 	`pip install flask`
 
 	`pip install bottle`
+
+- _[colorama ](http://pypi.python.org/pypi/colorama)_ for cross-platform colored terminal text.
 
 - _[autopep8](https://github.com/hhatto/autopep8)_ automatically formats Python code to conform to the [PEP 8](http://www.python.org/dev/peps/pep-0008) style guide.
 
