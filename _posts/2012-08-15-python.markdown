@@ -53,7 +53,7 @@ This is a collection of useful tutorials, texts, notes, packages and tools for t
 
 	`pip install bottle`
 
-- _[colorama ](http://pypi.python.org/pypi/colorama)_ for cross-platform colored terminal text.
+- _[colorama](http://pypi.python.org/pypi/colorama)_ for cross-platform colored terminal text.
 
 - _[autopep8](https://github.com/hhatto/autopep8)_ automatically formats Python code to conform to the [PEP 8](http://www.python.org/dev/peps/pep-0008) style guide.
 
