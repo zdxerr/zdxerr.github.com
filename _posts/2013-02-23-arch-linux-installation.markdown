@@ -8,7 +8,7 @@ This is a description of how to setup a basic system with [Arch Linux](https://w
 
 1. Change keyboard layout:
 
-    loadkeys de
+        loadkeys de
 
 2. Create partitions using `gdisk /dev/sda`.
 
@@ -95,6 +95,50 @@ This is a description of how to setup a basic system with [Arch Linux](https://w
 
         dd conv=notrunc bs=440 count=1 if=/usr/lib/syslinux/gptmbr.bin of=/dev/sda
 
+    Altenative:
+
+        syslinux-install_update -i -a -m
+
+11. Setup ramdisk
+
         mkinitcpio -p linux
+
+12. Exit system
+
+        exit
+        exit
+
+13. Unmount and reboot
+
+        umount /mnt/boot
+        umount /mnt/home
+        swapoff /dev/sda2
+        umount /mnt
+        reboot
+
+14. Configure network
+
+        dhcpcd
+
+15. Add a user
+
+        useradd -m -g users -s /bin/bash <name>
+        passwd <name>
+
+16. Install sudo and make user a sudoer
+
+        pacman -S sudo
+
+    In `/etc/sudoers` add
+
+        <name> ALL=(ALL) ALL
+
+17. Enable auto network configuration
+
+        sudo systemctl enable dhcpcd@eth0.service
+
+18. Install _X_
+
+        sudo pacman -S xorg-server xorg-xinit xorg-server-utils
 
 [guide]: http://wideaperture.net/blog/?p=3851 "A Guide to Installing Arch in VirtualBox"
