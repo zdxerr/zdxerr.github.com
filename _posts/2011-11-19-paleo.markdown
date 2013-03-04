@@ -10,3 +10,4 @@ categories: [links, nutrition]
 - [Mark's Daily Apple](http://www.marksdailyapple.com/)
 - [Paleo Diet Hacks](http://paleohacks.com/)
 - [Health Correlator](http://healthcorrelator.blogspot.de/)
+- [Whole Health Source](http://wholehealthsource.blogspot.de)
