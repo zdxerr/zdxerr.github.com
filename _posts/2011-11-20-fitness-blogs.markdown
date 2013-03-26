@@ -13,4 +13,3 @@ categories: [links, fitness, blogs]
 - [Zen to Fitnes](http://zentofitness.com/)
 - [Dangerously Hardcore](http://www.dangerouslyhardcore.com/)
 - [All Things Gym](http://www.allthingsgym.com/)
-- [JCDEEN](http://jcdeen.com/)
