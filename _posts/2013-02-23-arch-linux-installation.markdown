@@ -97,7 +97,11 @@ This is a description of how to setup a basic system with [Arch Linux](https://w
 
     Altenative:
 
-        syslinux-install_update -i -a -m
+        syslinux-install_update -iam
+
+    If it fails, set legacy BIOS bootable on partition 1:
+
+        sgdisk /dev/sda --attributes=1:set:2
 
 11. Setup ramdisk
 

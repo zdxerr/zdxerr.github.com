@@ -13,3 +13,4 @@ categories: [links, fitness, blogs]
 - [Zen to Fitnes](http://zentofitness.com/)
 - [Dangerously Hardcore](http://www.dangerouslyhardcore.com/)
 - [All Things Gym](http://www.allthingsgym.com/)
+- [A quest for strength and knowledge](http://gregnuckols.wordpress.com/)
