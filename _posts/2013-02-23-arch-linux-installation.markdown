@@ -129,6 +129,16 @@ This is a description of how to setup a basic system with [Arch Linux](https://w
 
         dhcpcd
 
+    or for wifi
+
+        pacman -S net-tools wireless_tools wpa_supplicant wpa_actiond dialog
+
+    [Install specific driver](https://wiki.archlinux.org/index.php/Wireless_Setup#Drivers_and_firmware)
+
+        wifi-menu <interface>
+
+    use [netcfg](https://wiki.archlinux.org/index.php/Netcfg) for network profiles
+
 15. Add a user
 
         useradd -m -g users -s /bin/bash <name>
@@ -174,6 +184,7 @@ This is a description of how to setup a basic system with [Arch Linux](https://w
         systemctl enable bumblebeed
         reboot
 
+    or for [Intel](https://wiki.archlinux.de/title/Intel)
 
 
 0. Virtualbox utils
