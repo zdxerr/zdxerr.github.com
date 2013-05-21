@@ -11,6 +11,6 @@ __Sprachen und Programmiermethoden__:
 
 __Rechnernetze__:
 
-- [Future Internet (in English)]() bei _[Prof. Dr. Holger Karl](http://www.cs.uni-paderborn.de/fachgebiete/fachgebiet-rechnernetze/people/hk.html)_
-- [Empirical Performance Evaluation (in English)]() bei _[Prof. Dr. Holger Karl](http://www.cs.uni-paderborn.de/fachgebiete/fachgebiet-rechnernetze/people/hk.html)_
+- [Future Internet (in English)](http://www.cs.uni-paderborn.de/fachgebiete/fachgebiet-rechnernetze/lehre/lehrveranstaltungen/vl-future-internet.html) bei _[Prof. Dr. Holger Karl](http://www.cs.uni-paderborn.de/fachgebiete/fachgebiet-rechnernetze/people/hk.html)_
+- [Empirical Performance Evaluation (in English)](http://www.cs.uni-paderborn.de/fachgebiete/fachgebiet-rechnernetze/lehre/lehrveranstaltungen/vl-empirical-performance-evaluation.html) bei _[Prof. Dr. Holger Karl](http://www.cs.uni-paderborn.de/fachgebiete/fachgebiet-rechnernetze/people/hk.html)_
 - [Seminar: Hacking]()
