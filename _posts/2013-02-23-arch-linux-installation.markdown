@@ -49,7 +49,7 @@ This is a description of how to setup a basic system with [Arch Linux](https://w
 
 5. Install
 
-        pacstrap /mnt base base-devel
+        pacstrap /mnt base base-devel gdisk
 
 6. Generate `fstab`
 
