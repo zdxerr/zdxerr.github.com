@@ -14,3 +14,4 @@ categories: [links, commics, fun]
 - [Querulous](http://diglett.blogspot.com/)
 - [zen pencils](http://zenpencils.com/)
 - [Toothpaste For Dinner](http://www.toothpastefordinner.com/)
+- [Hyperbole and a Half](http://hyperboleandahalf.blogspot.co.uk/)
