@@ -4,7 +4,7 @@ title: Arch Linux
 categories: [Linux, Arch, installation]
 ---
 
-This is a description of how to setup a basic system with [Arch Linux](https://www.archlinux.org/) based on this [guide][guide].
+This is a description of how to setup a basic system with [Arch Linux](https://www.archlinux.org/) based on this [guide][guide]. Infos on the Thinkpad T410 can be found [here][t410].
 
 1. Change keyboard layout:
 
@@ -49,7 +49,7 @@ This is a description of how to setup a basic system with [Arch Linux](https://w
 
 5. Install
 
-        pacstrap /mnt base base-devel
+        pacstrap /mnt base base-devel gdisk
 
 6. Generate `fstab`
 
@@ -224,3 +224,4 @@ This is a description of how to setup a basic system with [Arch Linux](https://w
         exec startxfce4
 
 [guide]: http://wideaperture.net/blog/?p=3851 "A Guide to Installing Arch in VirtualBox"
+[t410]: https://wiki.archlinux.org/index.php/Lenovo_ThinkPad_T410

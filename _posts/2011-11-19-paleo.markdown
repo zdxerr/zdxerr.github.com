@@ -5,9 +5,6 @@ categories: [links, nutrition]
 ---
 
 - [Robb Wolf](http://robbwolf.com/blog/)
-- [Whole9](http://whole9life.com/)
 - [Chris Kresser](http://chriskresser.com/)
 - [Mark's Daily Apple](http://www.marksdailyapple.com/)
 - [Paleo Diet Hacks](http://paleohacks.com/)
-- [Health Correlator](http://healthcorrelator.blogspot.de/)
-- [Whole Health Source](http://wholehealthsource.blogspot.de)

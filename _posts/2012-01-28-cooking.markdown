@@ -6,9 +6,5 @@ categories: [links, cooking]
 
 - [foodgawker](http://foodgawker.com/)
 - [chowstalker](http://www.chowstalker.com/)
-- [Stella Culinary](http://www.stellaculinary.com/)
-- [Jan's Sushi Bar](http://www.janssushibar.com/blog/)
 - [Food Porn](http://www.flickr.com/groups/food_porn/)
 - [Serious Eats](http://www.seriouseats.com/)
-- [4505 Meats Staff Recipes](http://4505meats.com/4505-meats-csa/4505-meats-staff-recipes/)
-- [Seasoned Advice](http://cooking.stackexchange.com/)

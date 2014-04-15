@@ -4,6 +4,7 @@ title: Programming Tutorials
 categories: [links, development]
 ---
 
+- [Learn X in Y minutes](http://learnxinyminutes.com/)
 - [C Programming Tutorial](http://randu.org/tutorials/c/)
 - [C reference](http://en.cppreference.com/w/c)
 - [Learn C The Hard Way](http://c.learncodethehardway.org/book/)
