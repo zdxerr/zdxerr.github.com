@@ -6,7 +6,5 @@ categories: [links, sport]
 
 - [CrossFit](http://www.crossfit.com/)
 - [CrossFit Discussion Board](http://www.board.crossfit.com/)
-- [CrossFit Endurance](http://www.crossfitendurance.com/)
 - [CrossFit Football](http://www.crossfitfootball.com/)
 - [Gymnastics WOD](http://gymnasticswod.com/)
-- [Mobility WOD](http://www.mobilitywod.com/)

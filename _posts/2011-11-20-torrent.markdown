@@ -4,4 +4,4 @@ title: Torrent
 categories: [links, download]
 ---
 
-- [The Pirate Bay](http://thepiratebay.org)
+- [The Pirate Bay](http://thepiratebay.se)
