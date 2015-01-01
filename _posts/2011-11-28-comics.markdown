@@ -11,5 +11,6 @@ categories: [links, commics, fun]
 - [Dilbert](http://dilbert.com/)
 - [Querulous](http://diglett.blogspot.com/)
 - [Toothpaste For Dinner](http://www.toothpastefordinner.com/)
+- [Hyperbole and a Half](http://hyperboleandahalf.blogspot.co.uk/)
 - [INCIDENTAL COMICS](http://www.incidentalcomics.com/)
 - [You’re All Just Jealous of My Jetpack](http://myjetpack.tumblr.com/)
